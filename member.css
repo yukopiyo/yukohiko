@@ -1,0 +1,182 @@
+@charset "UTF-8";
+/* すべての要素のmarginとpaddingを0に設定します */
+* {
+    margin: 0;/* 要素の外側の余白を0にする */
+    padding: 0;/* 要素の内側の余白を0にする */
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;/* フォントを指定する */
+  }
+  header {
+    text-align: center;
+    background-image: url();/* 背景画像を指定する */
+    background-size: cover;/* 背景画像をボックスいっぱいに指定する */
+    /* background-color:#f4b3c2; */
+    padding: 50px;
+    min-width: 92px;
+    height: 40px;/* 高さを指定する */
+    padding-top: 39px;
+    background-repeat: no-repeat;/* 背景画像の繰り返しを指定する */
+    background-position: top center;/* 背景画像の位置を指定する */
+    position: relative;/*相対配置*/
+  
+  
+   }
+  
+   header h1 {
+    color: #6a1917;/* フォントの色を指定する */
+    font-size: 50px;
+  }
+
+  /* 全てのsection */
+  
+  section {
+    padding: 30px;
+    min-width: 950px;/* 幅の最小値を指定する */
+  }
+
+
+  .member img{
+    /* vertical-align: middle; */
+    max-width: 100%;
+    height: 405px; 
+}
+
+  footer{
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    margin: 110px;
+    gap: 20px 130px; /* 余白 */
+  }
+  .flex2{
+    display: flex;
+  /* margin: 5px; */
+  justify-content: center;
+  margin: 110px;
+  gap: 20px 130px; /* 余白 */
+  }
+
+  .flex3 {
+    display: flex;
+    justify-content: center;
+    margin: 110px;
+    gap: 20px 130px; /* 余白 */
+  }
+.menu-btn {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    z-index: 90;
+    background-color: #ee1d1d;
+}
+.menu-btn span,
+.menu-btn span:before,
+.menu-btn span:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 25px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    position: absolute;
+}
+.menu-btn span:before {
+    bottom: 8px;
+}
+.menu-btn span:after {
+    top: 8px;
+}
+#menu-btn-check:checked ~ .menu-btn span {
+    background-color: rgba(255, 255, 255, 0);/*メニューオープン時は真ん中の線を透明にする*/
+}
+#menu-btn-check:checked ~ .menu-btn span::before {
+    bottom: 0;
+    transform: rotate(45deg);
+}
+#menu-btn-check:checked ~ .menu-btn span::after {
+    top: 0;
+    transform: rotate(-45deg);
+}
+#menu-btn-check {
+    display: none;
+}
+.menu-content {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    z-index: 80;
+    background-color: #ff9999;
+    transition: all 0.5s;/*アニメーション設定*/
+}
+.menu-content ul {
+    padding: 70px 10px 0;
+}
+.menu-content ul li {
+    border-bottom: solid 1px #ffffff;
+    list-style: none;
+}
+.menu-content ul li a {
+    display: block;
+    width: 100%;
+    font-size: 35px;
+    box-sizing: border-box;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 40px 70px 50px 0;
+    position: relative;
+}
+.menu-content ul li a::before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    border-top: solid 2px #ffffff;
+    border-right: solid 2px #ffffff;
+    transform: rotate(45deg);
+    position: absolute;
+    right: 11px;
+    top: 30px;
+}
+#menu-btn-check:checked ~ .menu-content {
+    left: 0;/*メニューを画面内へ*/
+}
+@media screen and (max-width: 800px){
+    img{
+        width: 100%;
+        text-align: center;
+    }
+    .bashio{
+        width: 130%;
+    }
+    .menu-content ul{
+        display: block;
+    }
+ header{
+    width: 100%;
+    text-align: center;
+ }
+ .wrapper {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 960px) {
+    img {
+      max-width: 960px;
+    }
+  }

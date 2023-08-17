@@ -179,4 +179,6 @@
     img {
       max-width: 960px;
     }
+    .br-sp {display: none;
+    }
   }

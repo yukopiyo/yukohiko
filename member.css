@@ -29,6 +29,7 @@
    header h1 {
     color: #6a1917;/* フォントの色を指定する */
     font-size: 50px;
+    text-align: center ;
   }
 
   /* 全てのsection */

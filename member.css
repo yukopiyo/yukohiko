@@ -68,7 +68,7 @@ a{
   .flex2{
     display: flex;
   /* margin: 5px; */
-/*   justify-content: center; */
+  justify-content: center;
 /*   margin: 110px; */
 /*   gap: 20px 130px; /* 余白 */ */
   } 

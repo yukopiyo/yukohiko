@@ -62,7 +62,7 @@ a{
     display: flex;
     justify-content: center;
     margin: 110px;
-/*     gap: 20px 130px; /* 余白 */ */
+    gap: 20px 130px; /* 余白 */
  flex-direction: column;
         }
   .flex2{

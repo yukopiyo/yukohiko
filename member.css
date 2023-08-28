@@ -69,6 +69,7 @@ a{
     display: flex;
   /* margin: 5px; */
   justify-content: center;
+        flex-direction: column;
 /*   margin: 110px; */
 /*   gap: 20px 130px; /* 余白 */ */
   } 

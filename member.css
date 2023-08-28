@@ -61,7 +61,7 @@ a{
  .flex {
     display: flex;
     justify-content: center;
-/*     margin: 110px; */
+    margin: 110px;
 /*     gap: 20px 130px; /* 余白 */ */
  flex-direction: column;
         }

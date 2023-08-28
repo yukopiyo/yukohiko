@@ -58,13 +58,13 @@ h3{
 a{
  word-break:keep-all;
 }
- /* .flex { */
-/*     display: flex; */
-/*     justify-content: center; */
+ .flex {
+    display: flex;
+    justify-content: center;
 /*     margin: 110px; */
 /*     gap: 20px 130px; /* 余白 */ */
 /*  flex-direction: column; */
-/*         } */
+        }
 /*   .flex2{ */
 /*     display: flex; */
   /* margin: 5px; */

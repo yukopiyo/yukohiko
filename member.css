@@ -162,7 +162,7 @@ a{
 #menu-btn-check:checked ~ .menu-content {
     left: 0;/*メニューを画面内へ*/
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 960px){
     img{
         width: 100%;
         text-align: center;
@@ -183,7 +183,7 @@ a{
     margin: 0 auto;
   }
 }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 481px) {
     img {
       max-width: 960px;
     }

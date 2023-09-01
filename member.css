@@ -63,7 +63,7 @@ a{
     justify-content: center;
     margin: 110px;
     gap: 20px 130px; /* 余白 */
- flex-direction: column;
+ flex-direction: row
         }
   .flex2{
     display: flex;

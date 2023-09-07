@@ -1,7 +1,6 @@
 @charset "UTF-8";
 /* すべての要素のmarginとpaddingを0に設定します */
 * {
-    
     margin: 0;/* 要素の外側の余白を0にする */
     padding: 0;/* 要素の内側の余白を0にする */
   }

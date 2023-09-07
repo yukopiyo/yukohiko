@@ -201,10 +201,4 @@ footer{
       max-width: 960px;
     }
   }
-    padding-top: 39px;
-    /* background-repeat: no-repeat;背景画像の繰り返しを指定する */
-    /* background-position: top center;背景画像の位置を指定する */
-    position: relative;/*相対配置*/
-    
-
-}
+  

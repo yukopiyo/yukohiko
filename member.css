@@ -203,6 +203,7 @@ a{
     margin: 0 auto;
   }
    header{
+       text-align:center;
          padding:39px 300px 50px;
    }
   }

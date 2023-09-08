@@ -200,5 +200,8 @@ footer{
     img {
       max-width: 960px;
     }
+      header{
+          padding-right:300px;
+      }
   }
   

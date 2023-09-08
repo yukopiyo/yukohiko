@@ -184,7 +184,7 @@ a{
         width:100%
     }
 }
-@media screen and (max-width: 405px) {
+@media screen and (max-width: 480px) {
     img {
       max-width: 960px;
           width: 100%;

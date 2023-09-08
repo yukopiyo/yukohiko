@@ -173,7 +173,6 @@ a{
  header{
     width: 100%;
     text-align: center;
-     padding:39px 300px 50px;
  }
  .wrapper {
     position: relative;
@@ -203,5 +202,7 @@ a{
     width: 100%;
     margin: 0 auto;
   }
-   
+   header{
+         padding:39px 300px 50px;
+   }
   }

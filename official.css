@@ -38,9 +38,12 @@ header{
 
 
 header h1 {
-    color:red;
-    font-size:medium;
-}
+    color:#274a78;/* フォントの色を指定する */
+    font-size: 50px;
+    text-align: center ;
+  }
+
+   
 
 .name h1{
     text-align: center;

@@ -23,7 +23,6 @@ header{
     /* background-size: cover;背景画像をボックスいっぱいに指定する */
     padding: 80px;
     min-width: 92px;
-    height: 600px;/* 高さを指定する */
     padding-top: 39px;
     /* background-repeat: no-repeat;背景画像の繰り返しを指定する */
     /* background-position: top center;背景画像の位置を指定する */

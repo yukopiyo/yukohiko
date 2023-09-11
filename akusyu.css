@@ -86,7 +86,9 @@ h4{
  
 
   /* sectionのclass photo */
-  
+  .mv{
+      padding: 50px 20px 20px;
+  }
   .youtube{
     display: block;
     margin: 0 auto;

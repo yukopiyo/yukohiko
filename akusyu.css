@@ -51,6 +51,7 @@ header h2{
 .name h1{
     text-align: center;
     font-size: 40px;
+    padding: 30px;
 
 }
 
@@ -95,7 +96,7 @@ h4{
 }
 
 footer{
-    background-color: antiquewhite;
+    background-color: #ffcce5 ;
     text-align: center;
     
 }

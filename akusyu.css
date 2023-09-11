@@ -88,7 +88,7 @@ h4{
 footer{
     background-color: antiquewhite;
     text-align: center;
-    width:1040px;
+    
 }
 
 .menu-btn {
@@ -195,7 +195,7 @@ footer{
         width: 100%;
     }
     footer{
-    width:1000px;
+    width:1040px;
     }
     
 }

@@ -41,6 +41,9 @@ header h1 {
     color:red;
     font-size:medium;
 }
+.name{
+    padding:30px;
+}
 
 .name h1{
     text-align: center;

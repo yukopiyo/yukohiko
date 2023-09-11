@@ -41,6 +41,9 @@ header h1 {
     color:red;
     font-size:medium;
 }
+header h2{
+    padding: 20px;
+}
 .name{
     padding:30px;
 }
@@ -87,7 +90,7 @@ h4{
     margin: 0 auto;
     max-width: 100%;
 }
-.setumei｛
+.setumei{
  padding: 30px;
 }
 

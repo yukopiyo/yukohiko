@@ -207,7 +207,9 @@ footer{
     footer{
     width:1040px;
     }
-    
+    .name{
+        padding:105px 40px 20px;
+    }
 }
 
   

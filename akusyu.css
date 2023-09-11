@@ -97,6 +97,11 @@ h4{
 .setumei{
  padding: 30px 19px 40px;
  background-color: #f0f8ff ;
+ width: 95%;
+}
+
+.official{
+    padding: 50px 20px 50px ;
 }
 
 .site{

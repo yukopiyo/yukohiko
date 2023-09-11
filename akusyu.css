@@ -79,13 +79,16 @@ h4{
     gap: 10px 130px; /* 余白 */
   }
  
-  
+
   /* sectionのclass photo */
   
   .youtube{
     display: block;
     margin: 0 auto;
     max-width: 100%;
+}
+.setumei｛
+ padding: 30px;
 }
 
 footer{

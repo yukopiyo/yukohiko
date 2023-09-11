@@ -57,7 +57,9 @@ h3{
 
 a{
  word-break:keep-all;
-        color:#b44c97 ;
+}
+a:link{
+ color:#ff7fbf ;
 }
  .flex {
     display: flex;
